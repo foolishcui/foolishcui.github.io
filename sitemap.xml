@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://foolishcui.github.io/About/resume_en.html</loc>
-    
-    <lastmod>2017-01-11T02:46:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://foolishcui.github.io/About/index.html</loc>
     
-    <lastmod>2017-01-11T02:41:28.000Z</lastmod>
+    <lastmod>2017-03-04T07:51:08.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://foolishcui.github.io/Portfolios/index.html</loc>
     
-    <lastmod>2017-01-09T10:46:40.000Z</lastmod>
+    <lastmod>2017-03-04T06:54:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolishcui.github.io/Portfolios/items/need.html</loc>
+    
+    <lastmod>2017-03-04T06:45:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolishcui.github.io/About/resume_en.html</loc>
+    
+    <lastmod>2017-01-11T02:46:00.000Z</lastmod>
     
   </url>
   
