@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="lang=zh-cmn-Hans"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> App Annie 实习总结 · Hi, I'm Lipcui</title><meta name="description" content="App Annie 实习总结 - Lipcui"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://foolishcui.github.io/atom.xml" title="Hi, I'm Lipcui"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/Portfolios" target="_self" class="nav-list-link">PORTFOLIO</a></li><li class="nav-list-item"><a href="/Project" target="_self" class="nav-list-link">PROJECT</a></li><li class="nav-list-item"><a href="/About" target="_self" class="nav-list-link">ABOUT</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">App Annie 实习总结</h1><div class="post-info">Jul 20, 2017</div><div class="post-content"><p>2017上半年一直在北京 AppAnnie 公司做交互设计的实习生，受益匪浅：</p>
+<a id="more"></a>
+<p>1）这段实习经历首先让我对公司里专业的交互设计流程有了一个全面的了解；<br>2）由于平日的主要工作内容是为公司复杂的产品线协助建立组件库，这在公司内部被称为 Component Libary, 我们在建立组件库的过程中也是困难重重；<br>3）积累了为业务逻辑复杂的网站开发交互组件的知识；<br>4）积累了许多日常工作的经验教训。</p>
+<h2 id="主要工作内容"><a href="#主要工作内容" class="headerlink" title="主要工作内容"></a>主要工作内容</h2><p>1）协助团队创建一套组件库文档，并以这套文档作为基础为不同组件制定设计规范。在这个过程中需要确定哪些组件应该被放进组件库中，并把这些组件进行分类整理；同时确定哪些是旧有的组件，而这些旧有的不符合规范的组件则会被新组件逐渐替代。<br>2）由于公司的主要业务是向用户展示数据，Table很自然的成为了产品中使用最普遍的组件，也承载了复杂的业务逻辑，为保证Table组件在产品中行为与样式的一致性，我们决定首先为Table制定一套组件使用规范。<br>3）我们找遍了页面中所有出现的Table组件，为Table制定了一套设计设计规范，包含元素、样式、行为、数据展示方法等，这套规范将被用在未来开发新产品时使用，同时也用于修改旧有的不符合规范的Table组件。<br>4）之后为保证公司内所有设计师都能够正确的使用Table组件，我们为Table建立了Sketch文件方便设计师开发新产品时使用，同时制作了网页原型交由工程师开发使用。<br>5）期间Airbnb推出了一套叫做Airbnb/React-Sketchapp的插件，可以帮助把React代码渲染到Sketch文件中查看，我们尝试使用这个工具开发组件库，以缩小设计与开发之间的沟通成本。但由于该插件所支持的API数量有限，不足以支持现有网站中复杂的组件开发，我们最终放弃了这个方案。<br>6）后来团队开始了Filters组件与Date Rang Picker两个组件的重设计与设计规范的制定。这也是团队在建立组件库最大的难点所在，我们需要先对不合理的交互组件进行重设计从而制定全新的设计规范。</p>
+<p>以上总结了我在 AppAnnie 公司所参与的工作，这个过程中让我认识到了为复杂的产品建立一套组件库的复杂性，设计工作中沟通的重要性以及一套科学合理的设计方法的重要性。我想每一个公司在高速成长的过程中都要经历为产品建立一套组件库的过程，这个过程可能非常困难，需要权衡各方面的利益，但完成之后将会有极大帮助。</p>
+<h2 id="为什么需要组件库"><a href="#为什么需要组件库" class="headerlink" title="为什么需要组件库"></a>为什么需要组件库</h2><p>公司在快速扩张时，会不断面临新的产品需求，就会不断为产品中添加新的交互组件来满足需求，此时一套详细的组件库与组件规范能够：</p>
+<ul>
+<li>合理的复用现有组件，加快开发周期，创造协调一致的用户体验。</li>
+<li>迭代旧有组件，与现有组件保持风格一致</li>
+<li>不同设计师的设计方案能够保持类似的设计风格</li>
+<li>维护多平台体验的一致性</li>
+</ul>
+<p>因此组件库是把现有的产品组件的样式、行为、数据模式收集起来，为常见的设计问题提供可循环复用的解决方案。当有了这样一套组件库后，产品设计与开发工作都中要遵循组件库中的通用规则，从而保证了用户体验的一致性、代码的可复用性以及设计团队日常工作的可参照性。</p>
+<h2 id="如何为业务逻辑复杂的产品建立组件库"><a href="#如何为业务逻辑复杂的产品建立组件库" class="headerlink" title="如何为业务逻辑复杂的产品建立组件库"></a>如何为业务逻辑复杂的产品建立组件库</h2><p>我们也在不断探索科学合理的的方式去为 AppAnnie 这样具有复杂业务逻辑的产品建立组件库：</p>
+<p>1）我们需要不断考虑哪些组件应该被放进组件库中去重复使用，而哪些组件需要被淘汰，从而制定出一个组件库的索引文档；<br>2）我们需要定义每个组件的功能、行为与使用场景；<br>3）我们需要制定一套统一的产品设计风格，包含字体排版，颜色，图标，间距，信息架构。把设计风格统一下来能够帮助设计师在独立探索设计方案的时候有一个统一的方向。<br>4）我们需要为组件库中的每个组件制定设计规范，对于在产品中频繁使用的组件，如Table, Filters等，需要设计团队投入更多的精力去思考调研，得到更为强大有效的解决方案。这个过程中同时需要找出组件在产品中所有的使用场景，确保新制定的规范能够满足所有业务逻辑。<br>5）我们需要确定不同组件设计规范制定的先后顺序，对于频繁使用或开发新功能所涉及到的组件需要被提前制定。<br>6）我们需要与开发团队充分沟通确保最新制定的组件设计规范能被顺利实现。<br>7）在确定了正确合理的设计规范后我们会制作Sketch原型供设计师使用，同时也会制作Axure原型或HTML高保真原型用作用户测试。</p>
+<h2 id="组件库索引文档的制定"><a href="#组件库索引文档的制定" class="headerlink" title="组件库索引文档的制定"></a>组件库索引文档的制定</h2><p>组件库的索引文档包含了产品中可复用的所有组件，为日后具体组件设计规范的制定奠定基础。</p>
+<p>我们采用了如下的分类方式对组件库索引文档进行整理，合理的分类方式能够帮助产品、设计与开发团队更有效的理解组件库：</p>
+<ul>
+<li>Style: 定义了产品中最基本的视觉样式，包含字体排版、颜色、图标等；</li>
+<li>Pattern<ul>
+<li>Data Pattern: 定义了产品中数据的展示形式</li>
+<li>Layout Pattern: 定义了组件的布局形式</li>
+</ul>
+</li>
+<li>Behaviour<ul>
+<li>UI Controls: 定义所有的通用组件</li>
+<li>WidgetsL: 定义与产品本身业务逻辑结合密切的组件</li>
+<li>System Behaviour: 定义产品中应该出现的标准的交互行为，往往伴随一个固定的业务逻辑</li>
+</ul>
+</li>
+</ul>
+<p>有了这样一套组件库索引文档作为基础，我们开始了具体组件设计规范的制定。</p>
+<h2 id="具体组件设计规范的制定"><a href="#具体组件设计规范的制定" class="headerlink" title="具体组件设计规范的制定"></a>具体组件设计规范的制定</h2><p>当有了一套组件库索引文档之后，我们需要站在组件复用的角度为不同的组件制定详细的设计规范。</p>
+<p>在这个过程中我们首先把一个组件在产品中所有场景下的使用截图进行整理，找出所有导致用户体验不一致的细节并总结到一个文档中，并一一改进找到合理的解决方案，然后在这基础上建立一套设计规范。之前的文档也会保留用于日后旧组件的迭代需要。</p>
+<p>我们对组件设计规范中的内容采用了如下的分类方法：</p>
+<ul>
+<li>Component Usage: 定义组件的应用场景</li>
+<li>Elements: 定义组件中所出现的元素以及元素的含义</li>
+<li>Style: 定义组件的视觉样式</li>
+<li>Component Behaviour: 定义组件的行为</li>
+<li>Related Component Behaviour: 定义其他相关组件的交互行为</li>
+<li>Data Pattern: 定义组件中数据的展示形式</li>
+</ul>
+<p>这样的分类方法贯穿在了所有组件规范的制定的思考过程中。</p>
+<h2 id="合适的设计流程"><a href="#合适的设计流程" class="headerlink" title="合适的设计流程"></a>合适的设计流程</h2><p>一个合理的交互设计流程奠定了开发一个新产品或新功能的基础。</p>
+<h2 id="为业务复杂的网站开发交互组件"><a href="#为业务复杂的网站开发交互组件" class="headerlink" title="为业务复杂的网站开发交互组件"></a>为业务复杂的网站开发交互组件</h2><h2 id="工作经验教训"><a href="#工作经验教训" class="headerlink" title="工作经验教训"></a>工作经验教训</h2></div></article></div></section><footer><div class="paginator"><a href="/2017/07/19/AirbnbDesignSystem学习/" class="next">NEXT</a></div><div class="copyright"><p>© 2016 - 2017 <a href="http://foolishcui.github.io">Lipcui</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>

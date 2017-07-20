@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="lang=zh-cmn-Hans"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Airbnb Design System 学习 · Hi, I'm Lipcui</title><meta name="description" content="Airbnb Design System 学习 - Lipcui"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://foolishcui.github.io/atom.xml" title="Hi, I'm Lipcui"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/Portfolios" target="_self" class="nav-list-link">PORTFOLIO</a></li><li class="nav-list-item"><a href="/Project" target="_self" class="nav-list-link">PROJECT</a></li><li class="nav-list-item"><a href="/About" target="_self" class="nav-list-link">ABOUT</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Airbnb Design System 学习</h1><div class="post-info">Jul 19, 2017</div><div class="post-content"><p>推荐阅读：<br><a href="http://airbnb.design/building-a-visual-language/" target="_blank" rel="external">http://airbnb.design/building-a-visual-language/</a><br><a href="http://airbnb.design/the-way-we-build/" target="_blank" rel="external">http://airbnb.design/the-way-we-build/</a></p>
+<a id="more"></a>
+<p>在软件的设计与开发过程中，由于快速迭代的需要，我们对产品所提出的设计方案很难建立在一套完整的设计语言与组件库的基础之上，这在未来总会造成隐患。</p>
+<p>设计始终是与系统以及如何创造可扩展与可重复的产品息息相关。 一套完整的设计语言，能够避免人们对产品细节产生各种误解，同时有助于创造更协调一致的用户体验，帮助设计师们更有效率的工作。</p>
+<h2 id="设计系统是什么"><a href="#设计系统是什么" class="headerlink" title="设计系统是什么"></a>设计系统是什么</h2><p>设计系统是一套由共同原则和模式定义的组件的集合。 这套系统允许在设计，开发中使用共同的词汇进行快速迭代。 设计系统的结构简单而连贯，降低了团队的沟通成本。</p>
+<p>我们为什么需要设计系统</p>
+<ul>
+<li>庞大的设计团队</li>
+<li>创造协调一致的用户体验</li>
+<li>不同的设计师有不同的设计方案和设计风格</li>
+<li>多平台用户体验的一致性</li>
+<li>旧有的组件需要迭代，与现有组件保持风格一致</li>
+</ul>
+<h2 id="Airbnb-是建立设计系统组件库的方法"><a href="#Airbnb-是建立设计系统组件库的方法" class="headerlink" title="Airbnb 是建立设计系统组件库的方法"></a>Airbnb 是建立设计系统组件库的方法</h2><p>1.准备工作</p>
+<p>设计要保持多平台的体验的一致性，定义可重复使用的组件。在刚开始时主要关注iOS与Android平台。首先打印出产品中所具有的新设计与旧设计，方便查看设计不一致的地方并开始作出修改。每个设计师把注意力集中在一个页面或一个产品领域进行重设计，解决现有的问题。并在这个过程中建立一些设计原则来引导设计。</p>
+<pre><code>统一性：每个组件都是整体的一部分，没有独立的设计风格。
+普遍性：Airbnb的用户遍布在全世界，产品与视觉语言应该被容易接受。
+形象性：设计要能够充分的体现其功能性。
+生动性：动效设计要做到栩栩如生，帮助用户与真实世界建立联系。
+</code></pre><p>一个非常重要的准备工作是把现有产品在不同平台上不同功能的截图放在网站上易于设计师查看。</p>
+<p>2.奠定基础</p>
+<p>建立一套基本的产品设计风格，包含字体排版，颜色，图标，间距，信息架构。把设计风格统一下来能够帮助设计师在独立探索设计方案的时候有一个统一的方向。在每一天结束的时候review每个人的设计成果，会看到不用的pattern逐渐出现。</p>
+<p>3.创建组件</p>
+<p>把组件看成一个生态系统的基本元素，它们具有特定的功能与特点，有一组属性定义，可以与其他的组件共存同时也可以独立迭代。</p>
+<h2 id="组件库需要不断迭代"><a href="#组件库需要不断迭代" class="headerlink" title="组件库需要不断迭代"></a>组件库需要不断迭代</h2><p>每一个组件都由其内部的元素所定义（如标题、文字、图片、图标），以及有时包含一些可选择的元素。这些元素在sketch文件与代码里面都已被定义。比如分隔线是一个组件的基本元素，我们要求每个组件都有一个分隔线，而它是否在组件中展示则需要基于当前的视图逻辑。</p>
+<p>随着说创建的组件数量不断增长，我们开始把类似的组件放进一个artboard里面，如 Navigation, Marquees, Content, Image, Marquees, Speciality.</p>
+<p>我们为手机（iOS和Android）创建了一套组件，并将其适应平板电脑的尺寸。 平板上的组件与移动设备大部分相同，在技术层面上，代码只需要以两种不同的风格存在。 通过这个系统，组件仅仅是在外观和定位方面不同，类似于响应式设计对Web的工作方式。 然后，设计人员可以使用常用组件设计屏幕，并且可以轻松适应不同的屏幕尺寸以及iOS和Android。</p>
+<p>对于平板电脑，我们创建了一些简单的布局概念，例如Focus Views，它将内容集中在页面，模态和2列和网格布局上。</p>
+<h2 id="经验教训"><a href="#经验教训" class="headerlink" title="经验教训"></a>经验教训</h2><p>1.并非所有组件都需要被平等的创建</p>
+<p>对于有些使用非常频繁的组件，比如 table 里面的行和列，需要投入更多的时间去思考得到更强大的pattern，即更有效的解决方案。</p>
+<p>2.Sketch文件难以维持</p>
+<p>过多的sketch文件难以维持，文件的更新于同步也是问题。</p>
+<p>3.缺乏文档记录</p>
+<p>这个项目需要我们在紧迫的时间内进行操作，这使我们忽视了一些文档过程。 缺乏彻底的文件造成了一些可以避免的混乱。 就像编码一样，在创建系统时记录系统是最重要的过程。 它必须迟早进行，并且在整个创建过程中进行记录，可以让您获得更平滑的决策。</p>
+</div></article></div></section><footer><div class="paginator"><a href="/2017/07/20/AppAnnie实习总结/" class="prev">PREV</a><a href="/2016/09/28/为什么想要深入学习交互设计？/" class="next">NEXT</a></div><div class="copyright"><p>© 2016 - 2017 <a href="http://foolishcui.github.io">Lipcui</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
