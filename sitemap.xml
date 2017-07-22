@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://foolishcui.github.io/Project/index.html</loc>
+    
+    <lastmod>2017-07-22T11:40:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolishcui.github.io/About/index.html</loc>
+    
+    <lastmod>2017-07-22T11:37:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://foolishcui.github.io/Portfolios/items/aa.html</loc>
     
     <lastmod>2017-07-21T10:53:31.000Z</lastmod>
@@ -16,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://foolishcui.github.io/About/index.html</loc>
-    
-    <lastmod>2017-07-21T02:17:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://foolishcui.github.io/Portfolios/index.html</loc>
     
     <lastmod>2017-07-20T13:26:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://foolishcui.github.io/Project/index.html</loc>
-    
-    <lastmod>2017-07-20T13:25:43.000Z</lastmod>
     
   </url>
   
