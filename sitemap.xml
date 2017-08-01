@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://foolishcui.github.io/2017/07/20/AppAnnie%E5%AE%9E%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
+    <loc>http://foolishcui.github.io/Portfolios/index.html</loc>
     
-    <lastmod>2017-08-01T01:14:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://foolishcui.github.io/About/index.html</loc>
-    
-    <lastmod>2017-07-24T09:05:50.000Z</lastmod>
+    <lastmod>2017-08-01T02:05:33.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://foolishcui.github.io/Project/index.html</loc>
     
-    <lastmod>2017-07-22T11:40:43.000Z</lastmod>
+    <lastmod>2017-08-01T02:02:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolishcui.github.io/About/index.html</loc>
+    
+    <lastmod>2017-08-01T02:01:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://foolishcui.github.io/2017/07/20/AppAnnie%E5%AE%9E%E4%B9%A0%E6%80%BB%E7%BB%93/</loc>
+    
+    <lastmod>2017-08-01T01:14:23.000Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://foolishcui.github.io/About/resume_en.html</loc>
     
     <lastmod>2017-07-21T02:25:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://foolishcui.github.io/Portfolios/index.html</loc>
-    
-    <lastmod>2017-07-20T13:26:40.000Z</lastmod>
     
   </url>
   
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>http://foolishcui.github.io/Portfolios/items/reader.html</loc>
+    <loc>http://foolishcui.github.io/Portfolios/items/baobao.html</loc>
     
     <lastmod>2016-10-09T08:01:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://foolishcui.github.io/Portfolios/items/baobao.html</loc>
+    <loc>http://foolishcui.github.io/Portfolios/items/reader.html</loc>
     
     <lastmod>2016-10-09T08:01:38.000Z</lastmod>
     
